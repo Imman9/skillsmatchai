@@ -1,7 +1,10 @@
 name: Deploy to Vercel
 
-on:push
-  
+on:
+  push:
+    branches: [master]
+    paths:
+      - "frontend/**"
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
