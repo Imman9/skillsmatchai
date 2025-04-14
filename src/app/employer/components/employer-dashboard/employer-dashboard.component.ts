@@ -100,7 +100,7 @@ import { map } from 'rxjs/operators';
                   routerLink="post-job"
                   routerLinkActive="active"
                 >
-                  <span class="nav-label">Post New Job</span>
+                  <span class="nav-label">Posted Jobs</span>
                 </a>
                 <a
                   mat-list-item
@@ -130,7 +130,6 @@ import { map } from 'rxjs/operators';
                   routerLink="interviews"
                   routerLinkActive="active"
                 >
-                  >
                   <span class="nav-label">Interview Schedule</span>
                 </a>
               </div>
