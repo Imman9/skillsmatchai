@@ -22,19 +22,19 @@ export class AuthService {
   private mockUsers: User[] = [
     {
       id: '1',
-      email: 'jobseeker@example.com',
+      email: 'jobseeker@gmail.com',
       role: UserRole.JOB_SEEKER,
       token: 'mock-token-1',
     },
     {
       id: '2',
-      email: 'employer@example.com',
+      email: 'employer@gmail.com',
       role: UserRole.EMPLOYER,
       token: 'mock-token-2',
     },
     {
       id: '3',
-      email: 'admin@example.com',
+      email: 'admin@gmail.com',
       role: UserRole.ADMIN,
       token: 'mock-token-3',
     },
