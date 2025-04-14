@@ -119,7 +119,7 @@ interface CV {
 
               <p>{{ cv.summary }}</p>
               <div class="cv-details">
-                <span>Phone No: {{ cv.phone }}</span>
+                <span>Phone: {{ cv.phone }}</span>
                 <a
                   *ngIf="cv.link"
                   [href]="cv.link"
